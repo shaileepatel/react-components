@@ -1,7 +1,10 @@
+var Rice = () => (<li>Rice</li>);
+var Tomato = () => (<li>Tomato</li>);
+
 var GroceryList = () => (
     <ul>
-      <li>Rice</li>
-      <li>Tomato</li>
+      <Rice />
+      <Tomato />
     </ul>
   );
 
